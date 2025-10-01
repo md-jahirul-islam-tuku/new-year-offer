@@ -319,3 +319,67 @@
   gap: 20px;
   margin-bottom: 15px;
 }
+
+.newsletter {
+  width: 1320px;
+  height: 616px;
+  margin: 0 auto 150px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter img {
+  margin-bottom: 40px;
+}
+
+.newsletter h1 {
+  color: rgba(7, 2, 17, 1);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.newsletter p {
+  width: 896px;
+  height: 64px;
+  color: rgba(68, 68, 68, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 22px auto 48px;
+}
+
+.newsletter input {
+  width: 348px;
+  padding: 23px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px 0 0 50px;
+}
+#email::placeholder{
+  color: rgb(185, 185, 185);
+}
+
+.newsletter button {
+  width: 300px;
+  padding: 25px;
+  color: #FFFFFF;
+  font-size: 20px;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+}
