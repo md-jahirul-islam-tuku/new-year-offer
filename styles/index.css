@@ -69,3 +69,71 @@
   line-height: 100%;
   margin: 16px 0 48px 0;
 }
+
+.party-bannar {
+  background-image: linear-gradient(90.00deg, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+  border-radius: 16px;
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto 120px;
+}
+
+.party-bannar-content {
+  width: 632px;
+  height: 190px;
+  margin-left: 140px;
+  padding-top: 125px;
+}
+
+.party-bannar-content h1 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+
+.party-bannar-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 25px 0 50px;
+}
+
+.party-bannar-content a {
+  padding: 15px;
+  background: black;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+.join-now {
+  width: 1320px;
+  height: 482px;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin:0 auto 120px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+
+}
+
+.join-now span {
+  color: red;
+  margin-right: 10px;
+}
