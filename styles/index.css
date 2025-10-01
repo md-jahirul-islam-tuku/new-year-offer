@@ -127,7 +127,7 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin:0 auto 120px;
+  margin: 0 auto 120px;
   border-radius: 16px;
   background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
 
@@ -136,4 +136,12 @@
 .join-now span {
   color: red;
   margin-right: 10px;
+}
+
+.coming-soon {
+  width: 1320px;
+  height: 482px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
