@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
   margin: 0;
@@ -36,4 +37,35 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+.bannar-offer {
+  margin: 120px 0;
+  text-align: center;
+}
+
+.bannar-offer h1 {
+  color: rgba(255, 0, 0, 1);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.bannar-offer h3 {
+  color: rgba(255, 0, 0, 1);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 100%;
+  margin-top: 48px;
+}
+
+.bannar-offer h2 {
+  color: rgba(7, 2, 17, 1);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  margin: 16px 0 48px 0;
 }
